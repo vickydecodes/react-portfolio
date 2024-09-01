@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Routes} from "react-router-dom";
-import withRouter from "../hooks/withRouter"
+import {WithRouter} from "../hooks/WithRouter"
 import { Home } from "../pages/home/Home";
 import { Portfolio } from "../pages/portfolio/PortFolio";
 import { ContactUs } from "../pages/contact/Contact";
@@ -8,7 +8,7 @@ import { About } from "../pages/about/About";
 import { Socialicons } from "../components/icons/Icons";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 
-const AnimatedRoutes = withRouter(({ location }) => (
+const AnimatedRoutes = WithRouter(({ location }) => (
   <TransitionGroup>
     <CSSTransition
       key={location.key}

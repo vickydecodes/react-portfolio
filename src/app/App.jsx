@@ -4,7 +4,7 @@ import {
   BrowserRouter as Router,
   useLocation,
 } from "react-router-dom";
-import withRouter from "../hooks/WithRouter";
+import WithRouter from "../hooks/WithRouter";
 import AppRoutes from "./routes";
 import Headermain from "../header/Header";
 import AnimatedCursor  from "../hooks/AnimatedCursor";
@@ -17,7 +17,7 @@ function _ScrollToTop(props) {
   }, [pathname]);
   return props.children;
 }
-const ScrollToTop = withRouter(_ScrollToTop);
+const ScrollToTop = WithRouter(_ScrollToTop);
 
 export default function App() {
   return (
