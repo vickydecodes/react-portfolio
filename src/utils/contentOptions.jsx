@@ -1,4 +1,4 @@
-const logotext = "VICKY";
+const logotext = "Vicky";
 const meta = {
     title: "Vignesh Karthikeyan",
     description: "I’m Vicky, a MERN stack devloper,currently working in Chennai",
@@ -7,10 +7,10 @@ const meta = {
 const introdata = {
     title: "I’m Vicky",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop web apps",
-    },
+        first: "Crafting innovative code",
+        second: "Building dynamic websites",
+        third: "Developing robust web apps",
+    },    
     description: "Hi, I'm Vignesh, a passionate Full Stack Developer and BCA student, graduating in 2025. I've built diverse projects ranging from e-commerce platforms to machine learning applications. With a love for modern tech stacks like React and Firebase, I thrive on turning ideas into impactful web applications. Let's create something amazing together!",
     your_img_url: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1725174991/portfolio/tcq9pgmgafmivufaoynk.png",
 };

@@ -46,7 +46,7 @@ section {
 
 .intro_sec .text,
 .intro_sec .h_bg-image {
-    width: 50%;
+    width: 60%;
 }
 
 @media (max-width:991.98px) {
@@ -92,7 +92,8 @@ section {
 }
 
 .intro_sec .h_bg-image {
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
     min-height: 700px;
     position: relative;
