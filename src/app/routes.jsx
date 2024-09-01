@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Routes} from "react-router-dom";
-import {WithRouter} from "../hooks/WithRouter"
+import WithRouter from "../hooks/WithRouter"
 import { Home } from "../pages/home/Home";
 import { Portfolio } from "../pages/portfolio/PortFolio";
 import { ContactUs } from "../pages/contact/Contact";
