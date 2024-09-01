@@ -11,7 +11,7 @@ const introdata = {
         second: "I code cool websites",
         third: "I develop web apps",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: "Hi, I'm Vignesh, a passionate Full Stack Developer and BCA student, graduating in 2025. I've built diverse projects ranging from e-commerce platforms to machine learning applications. With a love for modern tech stacks like React and Firebase, I thrive on turning ideas into impactful web applications. Let's create something amazing together!",
     your_img_url: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1725174991/portfolio/tcq9pgmgafmivufaoynk.png",
 };
 
