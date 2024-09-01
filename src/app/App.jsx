@@ -4,7 +4,7 @@ import {
   BrowserRouter as Router,
   useLocation,
 } from "react-router-dom";
-import withRouter from "../hooks/withRouter";
+import withRouter from "../hooks/WithRouter";
 import AppRoutes from "./routes";
 import Headermain from "../header/Header";
 import AnimatedCursor  from "../hooks/AnimatedCursor";
