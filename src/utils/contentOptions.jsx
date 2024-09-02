@@ -10,7 +10,7 @@ const introdata = {
         first: "Crafting innovative code",
         second: "Building dynamic websites",
         third: "Developing robust web apps",
-    },    
+    },
     description: "Hi, I'm Vignesh, a passionate Full Stack Developer and BCA student, graduating in 2025. I've built diverse projects ranging from e-commerce platforms to machine learning applications. With a love for modern tech stacks like React and Firebase, I thrive on turning ideas into impactful web applications. Let's create something amazing together!",
     your_img_url: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1725174991/portfolio/tcq9pgmgafmivufaoynk.png",
 };
@@ -62,15 +62,38 @@ const skills = [{
 },
 ];
 
-const services = [{
-    title: "Website Development",
-    description: "I specialize in creating user-focused applications, leveraging my skills in both front-end and back-end technologies. I use React and Bootstrap for the front end, and Firebase and MongoDB for the back end, to build efficient, scalable, and visually appealing solutions.",
-},
-{
-    title: "Web Apps",
-    description: "I design and build user-friendly applications. My focus is on ensuring efficiency, scalability, and visual appeal. I strive to create solutions that meet both user needs and project goals.",
-},
+const services = [
+    {
+        title: "Website Development",
+        description: "I specialize in creating user-focused applications, leveraging my skills in both front-end and back-end technologies. I use React and Bootstrap for the front end, and Firebase and MongoDB for the back end, to build efficient, scalable, and visually appealing solutions.",
+    },
+    {
+        title: "Web Apps",
+        description: "I design and build user-friendly applications. My focus is on ensuring efficiency, scalability, and visual appeal. I strive to create solutions that meet both user needs and project goals.",
+    }
 ];
+
+const education = [
+    {
+        title: "Bachelor Of Computer Applications",
+        duration: '2022 - 2025',
+        school: 'Gurunanak College, Velachery',
+        description: "Learned various technologies Web Technologies, Programming Languages, Data Structures, Mobile App Development, OS, Databases",
+        cgpa: 'CGPA: 7.85 out of 9.5'
+    },
+    {
+        title: "11th - 12th",
+        duration: '2021 - 2022',
+        school: 'Holy Family Convent Matriculation Hr Sec School, Keelkatalai',
+        description: "Secured 72% in HSC Examination.",
+    },
+    {
+        title: "1st - 10th",
+        duration: '2010 - 2020',
+        school: 'Good Shepherd Matriculation Hr Sec School, Old Pallavaram',
+        description: "Secured 98.7% in SSLC Examination.",
+    }
+]
 
 const dataportfolio = [{
     img: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1725178942/portfolio/project/tp5dt5umbitbxhm6fbkv.png",
@@ -102,7 +125,13 @@ const dataportfolio = [{
     img: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1725180554/portfolio/project/f2i4gt0m6nvcspcocq3c.png",
     description: "Color cubes",
     link: "https://reactapp-bdo0.onrender.com/",
+},
+{
+    img: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1725289558/portfolio/project/k6nggfjaza3sbum1cntd.png",
+    description: "Arulmigu Sree Balamuneeswaran Temple Website",
+    link: "https://www.arulmigusreebalamuneeswarantemple.org",
 }
+
 ];
 
 const contactConfig = {
@@ -131,4 +160,5 @@ export {
     contactConfig,
     socialprofils,
     logotext,
+    education
 };

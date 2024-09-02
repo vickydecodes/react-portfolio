@@ -55,7 +55,7 @@ export const Home = () => {
                       <div className="ring three"></div>
                     </div>
                   </Link>
-                  <a href="src\pages\home\resume\vignesh_resume.pdf" download='vignesh_resume.pdf' className="text_2">
+                  <a href="/resume/vignesh_resume.pdf" download='vignesh_resume.pdf' className="text_2">
                     <div id="button_p" className="ac_btn btn mb-3">
                       Get my resume
                       <div className="ring one"></div>
