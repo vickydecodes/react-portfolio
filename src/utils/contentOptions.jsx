@@ -98,7 +98,7 @@ const education = [
 const dataportfolio = [{
     img: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1725178942/portfolio/project/tp5dt5umbitbxhm6fbkv.png",
     description: "The Tribute to Virat Kohli",
-    link: "https://vicky-at-web.github.io/viratkohli18/viraat2.html",
+    link: "https://vickydecodes.github.io/viratkohli18/viraat2.html",
 },
 {
     img: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1725179388/portfolio/project/uul4yhztqhhfkmqdh8k6.png",
@@ -113,13 +113,13 @@ const dataportfolio = [{
 {
     img: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1725180026/portfolio/project/kbkkkn2gcgioedonqbfr.png",
     description: "TV show finder app",
-    link: "https://vicky-at-web.github.io/tvshow/tv.html",
+    link: "https://vickydecodes.github.io/tvshow/tv.html",
 },
 
 {
     img: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1725180141/portfolio/project/urzh9t1psdht5pvhjbey.png",
     description: "Snake game",
-    link: "https://vicky-at-web.github.io/snakegame/snake.html",
+    link: "https://vickydecodes.github.io/snakegame/snake.html",
 },
 {
     img: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1725180554/portfolio/project/f2i4gt0m6nvcspcocq3c.png",
@@ -144,7 +144,7 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com/vicky-at-web",
+    github: "https://github.com/vickydecodes",
     facebook: "https://www.facebook.com/vickysde/",
     linkedin: "https://www.linkedin.com/in/vickyatln26/",
     twitter: "https://x.com/vickykraken23",
