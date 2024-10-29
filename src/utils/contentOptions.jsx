@@ -147,7 +147,7 @@ const socialprofils = {
     github: "https://github.com/vickydecodes",
     facebook: "https://www.facebook.com/vickysde/",
     linkedin: "https://www.linkedin.com/in/vickyatln26/",
-    twitter: "https://x.com/vickykraken23",
+    twitter: "https://x.com/vickytweetzz",
 };
 export {
     meta,
