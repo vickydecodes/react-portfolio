@@ -46,7 +46,7 @@ const skills = [{
 },
 {
     name: "React",
-    value: 60,
+    value: 85,
 },
 {
     name: 'Express JS',
@@ -135,7 +135,7 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "vigneshkarthikeyan36@gmail.com",
+    YOUR_EMAIL: "workofvicky@gmail.com",
     YOUR_FONE: "+91 63851 38282",
     description: "I'm Vignesh, a Full Stack Developer with a passion for crafting user-centric web applications. I specialize in creating efficient, scalable, and visually appealing solutions. Driven by a commitment to excellence, I enjoy turning innovative ideas into impactful digital experiences. ",
     YOUR_SERVICE_ID: "service_hu8ywwe",
