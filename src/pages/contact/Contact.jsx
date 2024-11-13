@@ -115,7 +115,7 @@ export const ContactUs = () => {
               <Row>
                 <Col lg="6" className="form-group">
                   <input
-                    className="form-control"
+                    className="form-control shadow-none"
                     id="name"
                     name="name"
                     placeholder="Name"
@@ -127,7 +127,7 @@ export const ContactUs = () => {
                 </Col>
                 <Col lg="6" className="form-group">
                   <input
-                    className="form-control rounded-0"
+                    className="form-control shadow-none rounded-0"
                     id="email"
                     name="email"
                     placeholder="Email"
@@ -139,7 +139,7 @@ export const ContactUs = () => {
                 </Col>
               </Row>
               <textarea
-                className="form-control rounded-0"
+                className="form-control rounded-0 shadow-none"
                 id="message"
                 name="message"
                 placeholder="Message"
