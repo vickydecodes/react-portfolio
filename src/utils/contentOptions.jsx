@@ -1,7 +1,7 @@
 const logotext = "Vicky";
 const meta = {
   title: "Vignesh Karthikeyan",
-  description: "I’m Vicky, a MERN stack devloper,currently working in Chennai",
+  description: "I’m Vicky, Founder & CEO of Cookie Inc. , a tech-driven creative studio.",
 };
 
 const introdata = {
@@ -12,17 +12,21 @@ const introdata = {
     third: "Developing robust web apps",
   },
   description:
-    "Hi, I'm Vignesh, a passionate Full Stack Developer and BCA student, graduating in 2025. I've built diverse projects ranging from e-commerce platforms to machine learning applications. With a love for modern tech stacks like React and Firebase, I thrive on turning ideas into impactful web applications. Let's create something amazing together!",
-  your_img_url:
-    "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1725174991/portfolio/tcq9pgmgafmivufaoynk.png",
+    "Founder & CEO of Cookie Inc. — a tech-driven creative studio where strategy meets execution. With a passion for smart solutions and modern design, I lead Cookie Inc. to build meaningful digital products that scale, connect, and inspire. From bold ideas to polished launches, I’m all about creating impact through clean code and sharp thinking.",
+  your_img_url: "/resume/hey_2.png"
 };
 
 const dataabout = {
   title: "A bit about myself",
   aboutme:
-    "Hi, I'm Vignesh, a passionate Full Stack Developer and BCA student, graduating in 2025. I've built diverse projects ranging from e-commerce platforms to machine learning applications. With a love for modern tech stacks like React and Firebase, I thrive on turning ideas into impactful web applications. Let's create something amazing together!",
+    "Hi, I'm Vignesh — Founder & CEO of Cookie Inc. . I lead with vision, passion, and a mission to turn bold ideas into real impact. From building strong teams to crafting smart strategies, I’m all about driving Cookie Inc. forward with creativity and purpose. Let’s make something unforgettable.",
 };
 const worktimeline = [
+    {
+    jobtitle: "Cookie Inc.",
+    where: "Founder & CEO",
+    date: "2025 - present",
+  },
   {
     jobtitle: "Full Stack Web Developer",
     where: "Freelance",
@@ -77,7 +81,23 @@ const services = [
     description:
       "I design and build user-friendly applications. My focus is on ensuring efficiency, scalability, and visual appeal. I strive to create solutions that meet both user needs and project goals.",
   },
+  {
+    title: "Mobile App Development",
+    description:
+      "I craft cross-platform mobile applications with intuitive interfaces and smooth performance, using modern frameworks like Flutter and React Native to bring ideas to life on both Android and iOS.",
+  },
+  {
+    title: "UI/UX Design",
+    description:
+      "I focus on creating clean, modern, and user-friendly interfaces that enhance user experience. From wireframes to polished visuals, I ensure every product feels intuitive and looks stunning.",
+  },
+  {
+    title: "Digital Marketing",
+    description:
+      "I help brands grow through targeted digital strategies, including SEO, social media marketing, and content creation. My goal is to increase visibility and drive meaningful engagement online.",
+  },
 ];
+
 
 const education = [
   {
@@ -155,7 +175,7 @@ const contactConfig = {
   YOUR_EMAIL: "workofvicky@gmail.com",
   YOUR_FONE: "+91 63851 38282",
   description:
-    "I'm Vignesh, a Full Stack Developer with a passion for crafting user-centric web applications. I specialize in creating efficient, scalable, and visually appealing solutions. Driven by a commitment to excellence, I enjoy turning innovative ideas into impactful digital experiences. ",
+    "I'm Vignesh, a Full Stack Developer and the mind behind Cookie, with a passion for building user-centric digital experiences. I specialize in crafting scalable, efficient, and visually engaging web solutions using modern tech stacks. Fueled by innovation and a drive for excellence, I turn bold ideas into impactful applications that deliver real value.",
   YOUR_SERVICE_ID: "service_hu8ywwe",
   YOUR_TEMPLATE_ID: "template_5ct48vj",
   YOUR_USER_ID: "uV8HH3oXRJexv7SOP",
@@ -163,9 +183,9 @@ const contactConfig = {
 
 const socialprofils = {
   github: "https://github.com/vickydecodes",
-  facebook: "https://www.facebook.com/vickysde/",
   linkedin: "https://www.linkedin.com/in/vickyatln26/",
-  twitter: "https://x.com/vickytweetzz",
+  twitter: "https://x.com/vickify_exe",
+  instagram: "https://www.instagram.com/vickify.exe"
 };
 export {
   meta,
