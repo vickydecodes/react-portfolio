@@ -1,7 +1,8 @@
 const logotext = "Vicky";
 const meta = {
   title: "Vignesh Karthikeyan",
-  description: "I’m Vicky, Founder & CEO of Cookie Inc. , a tech-driven creative studio.",
+  description:
+    "I’m Vicky, Founder & CEO of Cookie Inc. , a tech-driven creative studio.",
 };
 
 const introdata = {
@@ -13,7 +14,7 @@ const introdata = {
   },
   description:
     "Founder & CEO of Cookie Inc. — a tech-driven creative studio where strategy meets execution. With a passion for smart solutions and modern design, I lead Cookie Inc. to build meaningful digital products that scale, connect, and inspire. From bold ideas to polished launches, I’m all about creating impact through clean code and sharp thinking.",
-  your_img_url: "/resume/hey_2.png"
+  your_img_url: "/resume/hey_2.png",
 };
 
 const dataabout = {
@@ -22,20 +23,21 @@ const dataabout = {
     "Hi, I'm Vignesh — Founder & CEO of Cookie Inc. . I lead with vision, passion, and a mission to turn bold ideas into real impact. From building strong teams to crafting smart strategies, I’m all about driving Cookie Inc. forward with creativity and purpose. Let’s make something unforgettable.",
 };
 const worktimeline = [
-    {
+  {
     jobtitle: "Cookie Inc.",
     where: "Founder & CEO",
     date: "2025 - present",
+  },
+
+  {
+    jobtitle: "Web Developer",
+    where: "Innotech Titans",
+    date: "2024 - present",
   },
   {
     jobtitle: "Full Stack Web Developer",
     where: "Freelance",
     date: "2023 - present",
-  },
-  {
-    jobtitle: "Web Developer",
-    where: "Innotech Titans",
-    date: "2024 - present",
   },
 ];
 
@@ -97,7 +99,6 @@ const services = [
       "I help brands grow through targeted digital strategies, including SEO, social media marketing, and content creation. My goal is to increase visibility and drive meaningful engagement online.",
   },
 ];
-
 
 const education = [
   {
@@ -185,7 +186,7 @@ const socialprofils = {
   github: "https://github.com/vickydecodes",
   linkedin: "https://www.linkedin.com/in/vickyatln26/",
   twitter: "https://x.com/vickify_exe",
-  instagram: "https://www.instagram.com/vickify.exe"
+  instagram: "https://www.instagram.com/vickify.exe",
 };
 export {
   meta,
