@@ -42,35 +42,23 @@ const worktimeline = [
 ];
 
 const skills = [
-  {
-    name: "Python",
-    value: 90,
-  },
-  {
-    name: "Node JS",
-    value: 85,
-  },
-  {
-    name: "Javascript",
-    value: 80,
-  },
-  {
-    name: "React",
-    value: 85,
-  },
-  {
-    name: "Express JS",
-    value: 80,
-  },
-  {
-    name: "Mongo DB",
-    value: 75,
-  },
-  {
-    name: "Git & GitHub",
-    value: 85,
-  },
+  { name: "Python", value: 90 },
+  { name: "Node JS", value: 85 },
+  { name: "Javascript", value: 80 },
+  { name: "React", value: 85 },
+  { name: "Express JS", value: 80 },
+  { name: "Mongo DB", value: 75 },
+  { name: "Git & GitHub", value: 85 },
+  { name: "TypeScript", value: 75 },
+  { name: "Firebase", value: 75 },
+  { name: "Docker", value: 60 },
+  { name: "REST APIs", value: 85 },
+  { name: "CSS & Sass", value: 80 },
+  { name: "Bootstrap", value: 90 },
+  { name: "Tailwind CSS", value: 80 },
+  { name: "Framer Motion", value: 70 },
 ];
+
 
 const services = [
   {
