@@ -24,8 +24,8 @@ const dataabout = {
 };
 const worktimeline = [
   {
-    jobtitle: "Cookie Inc.",
-    where: "Founder & CEO",
+    jobtitle: "Founder & CEO",
+    where: "Cookie Inc.",
     date: "2025 - present",
   },
 
