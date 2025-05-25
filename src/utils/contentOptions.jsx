@@ -59,6 +59,103 @@ const skills = [
   { name: "Framer Motion", value: 70 },
 ];
 
+const blogs = [
+  {
+    title: "How I Started My Startup Journey",
+    date: "May 20, 2025",
+    author: "Cookie Founder",
+    description:
+      "A story of how an idea turned into Cookie and the lessons I learned along the way.",
+    slug: "how-i-started-my-startup-journey",
+    fullContent: `Every startup begins with a story. For me, it started with a simple problem and a relentless desire to build something meaningful.
+
+I didn’t have fancy investors or a massive team. Just passion, late nights, and the belief that technology could solve everyday problems.
+
+From sketching ideas on napkins to pitching to friends, every step was a lesson in patience and perseverance.
+
+Cookie wasn’t just a project—it was my journey of growth, failure, learning, and ultimately, progress.
+
+If you’re starting your own path, remember: the journey is as important as the destination. Keep pushing, keep learning.`,
+  },
+  {
+    title: "Fail Fast, Learn Faster",
+    date: "May 15, 2025",
+    author: "Cookie Founder",
+    description:
+      "Breaking down the idea of failing fast, and how I embraced failure as feedback to grow Cookie.",
+    slug: "fail-fast-learn-faster",
+    fullContent: `Fail fast. It sounds cliché, but it’s a mindset that saved Cookie.
+
+Early on, we made decisions that didn’t work. Features that customers ignored. Strategies that fell flat.
+
+Instead of fearing failure, we welcomed it as feedback.
+
+Each failure sharpened our focus and helped us pivot quickly.
+
+Remember, failure isn’t defeat—it’s an opportunity to learn, adapt, and come back stronger.
+
+Fail fast, yes. But more importantly, learn faster.`,
+  },
+  {
+    title: "Balancing Vision and Execution",
+    date: "May 10, 2025",
+    author: "Cookie Founder",
+    description:
+      "Vision gives you direction. Execution gets you there. Here's how I handle both without losing focus.",
+    slug: "balancing-vision-and-execution",
+    fullContent: `Vision and execution — they’re the two sides of the same coin.
+
+Vision without execution is just a dream. Execution without vision is just busywork.
+
+At Cookie, we keep our vision clear: to build tech that truly helps businesses grow.
+
+But that vision only matters if we execute daily — through small, deliberate actions.
+
+I’ve learned to balance dreaming big with doing the work.
+
+If you want to lead, don’t just envision the future — build it step by step.`,
+  },
+  {
+    title: "Why Smart Work Beats Hard Work",
+    date: "May 5, 2025",
+    author: "Cookie Founder",
+    description:
+      "It’s not about working 20 hours. It’s about making 4 hours count like 20. My thoughts on smart work culture.",
+    slug: "why-smart-work-beats-hard-work",
+    fullContent: `Working 20 hours a day sounds great — until it burns you out.
+
+I’ve learned that smart work isn’t about laziness, it’s about leverage.
+
+Instead of doing everything myself, I focus on systems. Delegation. Automation.
+
+That’s how 4 hours of focused work can beat 20 hours of scattered effort.
+
+At Cookie, we choose to optimize, not just hustle.
+
+So here’s a rule I live by now: Think twice before working twice. Hustle hard, but think smarter.`,
+  },
+  {
+    title: "The Power of Saying No",
+    date: "May 1, 2025",
+    author: "Cookie Founder",
+    description:
+      "Every 'yes' comes at a cost. Here's how saying 'no' more often gave me clarity and control.",
+    slug: "the-power-of-saying-no",
+    fullContent: `“No” is underrated.
+
+Every time I say no to distractions, side projects, or low-value tasks — I’m saying yes to Cookie’s growth.
+
+It’s hard. Especially in early stages when every offer feels like an opportunity.
+
+But not every opportunity aligns with our mission.
+
+Saying no helped me protect my time, my team’s energy, and our identity.
+
+Learning to say no isn’t arrogance — it’s clarity.
+
+And that clarity builds momentum.`,
+  },
+];
 
 const services = [
   {
@@ -188,4 +285,5 @@ export {
   socialprofils,
   logotext,
   education,
+  blogs,
 };
