@@ -63,7 +63,7 @@ export const Home = () => {
                       <div className="ring three"></div>
                     </div>
                   </a>
-                  <a href="https://www.cookie.org.in" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.cookieinc.in" target="_blank" rel="noopener noreferrer">
                     <div id="button_h" className="ac_btn btn mb-3">
                       Visit Cookie Inc.
                       <div className="ring one"></div>
