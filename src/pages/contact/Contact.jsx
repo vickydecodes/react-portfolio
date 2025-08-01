@@ -16,45 +16,51 @@ export const ContactUs = () => {
     variant: "",
   });
 
-  const handleSubmit = (e) => {
-  e.preventDefault();
-  setFormdata({ loading: true });
+ const handleSubmit = (e) => {
+    e.preventDefault();
+    setFormdata((prev) => ({ ...prev, loading: true }));
 
-  const templateParams = {
-    from_name: formData.name,
-    from_email: formData.email,
-    to_name: contactConfig.YOUR_EMAIL,
-    message: formData.message,
+    const templateParams = {
+      from_name: formData.name,
+      from_email: 'workofvicky@gmail.com',
+      name: formData.name,
+      email: formData.email,
+      message: formData.message,
+    };
+
+    emailjs
+      .send(
+        contactConfig.YOUR_SERVICE_ID,
+        contactConfig.YOUR_TEMPLATE_ID,
+        templateParams,
+        contactConfig.YOUR_USER_ID
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          setFormdata({
+            email: "",
+            name: "",
+            message: "",
+            loading: false,
+            alertmessage: "SUCCESS! Thank you for your message",
+            variant: "success",
+            show: true,
+          });
+        },
+        (error) => {
+          console.log(error.text);
+          setFormdata((prev) => ({
+            ...prev,
+            loading: false,
+            alertmessage: `Failed to send! ${error.text}`,
+            variant: "danger",
+            show: true,
+          }));
+          document.getElementsByClassName("co_alert")[0].scrollIntoView();
+        }
+      );
   };
-
-  emailjs
-    .send(
-      contactConfig.YOUR_SERVICE_ID,
-      contactConfig.YOUR_TEMPLATE_ID,
-      templateParams,
-      contactConfig.YOUR_USER_ID
-    )
-    .then(
-      (result) => {
-        console.log(result.text);
-        setFormdata({
-          loading: false,
-          alertmessage: "SUCCESS! Thank you for your message",
-          variant: "success",
-          show: true,
-        });
-      },
-      (error) => {
-        console.log(error.text);
-        setFormdata({
-          alertmessage: `Failed to send! ${error.text}`,
-          variant: "danger",
-          show: true,
-        });
-        document.getElementsByClassName("co_alert")[0].scrollIntoView();
-      }
-    );
-};
 
   const handleChange = (e) => {
     setFormdata({
