@@ -155,6 +155,36 @@ Learning to say no isn’t arrogance — it’s clarity.
 
 And that clarity builds momentum.`,
   },
+  {
+  title: "The Unexpected Idea Behind My New CLI Tool",
+  date: "May 25, 2025",
+  author: "Cookie Founder",
+  description:
+    "How I accidentally stumbled onto a unique backend-to-frontend sync concept while building a simple developer tool.",
+  slug: "the-unexpected-idea-behind-my-cli",
+  fullContent: `Some ideas are born from planning. Others appear out of nowhere. This one was the second kind.
+
+While working on a small personal project, I accidentally discovered a new way to sync backend routes with the frontend — without using OpenAPI, Swagger, GraphQL, or any complex code generators.
+
+It started simple: I exported all my backend routes into a tiny manifest file. Then I piped that manifest directly into my frontend. Suddenly, my frontend knew:
+- every available backend endpoint,
+- how to auto-generate request functions,
+- how to stay type-consistent with backend changes,
+- and how to update instantly without touching a line of client-side API code.
+
+One sync step. That’s it.
+
+The more I tested it, the more strange it felt — why hasn’t anyone tried something this simple?
+
+I searched everywhere. The only solutions I found were huge frameworks that felt too heavy for small teams or solo developers. But this? This was minimal, clean, and shockingly effective.
+
+This small discovery eventually became the foundation of my CLI tool — a utility designed to help developers move faster with less friction. A tool that connects backend and frontend in a lightweight, almost magical way.
+
+I’m still refining it, but the potential feels exciting. Sometimes the best ideas come from the moments where you stop trying to invent something big… and just solve your own problem.
+
+More updates coming soon.`,
+},
+
 ];
 
 const services = [
