@@ -1,0 +1,16 @@
+name: Deploy to Render
+
+on:
+  push:
+    branches:
+      - master  # or your deploy branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Render Deployment
+        run: |
+          curl "https://api.render.com/deploy/srv-cra31923esus739q2up0?key=QtJ4zR9060k"
+        env:
+          RENDER_DEPLOY_HOOK: "https://api.render.com/deploy/srv-cra31923esus739q2up0?key=QtJ4zR9060k"
