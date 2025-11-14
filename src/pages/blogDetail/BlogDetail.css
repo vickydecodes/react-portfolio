@@ -9,11 +9,18 @@
 
 .blog-content {
   font-size: 18px;
-  line-height: 1.8;
+  /* line-height: 1.8; */
   color: var(--text-color);
   white-space: pre-line;
   margin-bottom: 2rem;
 }
+
+.blog-detail-container {
+  min-height: 100vh;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
 
 .read-more-btn {
   background-color: var(--text-color);

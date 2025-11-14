@@ -61,131 +61,190 @@ const skills = [
 
 const blogs = [
   {
+    title: "The Unexpected Idea Behind My New CLI Tool",
+    date: "November 14, 2025",
+    slug: "the-unexpected-idea-behind-my-cli",
+    description:
+      "How I accidentally stumbled onto a unique backend-to-frontend sync concept while building a simple developer tool.",
+    fullContent: `
+
+Some ideas come from planning. Others appear out of nowhere.  
+This one was the second kind.
+
+While working on a small personal project, I discovered a new way to sync backend routes with the frontend — **without OpenAPI, Swagger, GraphQL, or any code generators**.
+
+It started simple:  
+I exported all my backend routes into a tiny manifest file.  
+Then I piped that manifest directly into my frontend.
+
+Suddenly, the frontend automatically knew:
+
+- every available backend endpoint  
+- how to auto-generate request functions  
+- how to stay type-consistent with backend changes  
+- how to update instantly without touching client-side code  
+
+One **sync step**. That’s it.
+
+The more I tested it, the stranger it felt — *why hasn't anyone tried something this simple?*
+
+Everything I found online was extremely heavy:
+
+- OpenAPI  
+- Swagger  
+- tRPC  
+- GraphQL  
+- RPC frameworks  
+
+But this solution was **minimal, clean, and shockingly effective**.
+
+This discovery eventually became the foundation of my CLI tool —  
+a lightweight utility that bridges backend → frontend seamlessly.
+
+Sometimes the best ideas appear when you're simply solving your own problem.
+
+More updates soon.
+    `,
+  },
+
+  {
     title: "How I Started My Startup Journey",
     date: "May 20, 2025",
-    author: "Cookie Founder",
+    slug: "how-i-started-my-startup-journey",
     description:
       "A story of how an idea turned into Cookie and the lessons I learned along the way.",
-    slug: "how-i-started-my-startup-journey",
-    fullContent: `Every startup begins with a story. For me, it started with a simple problem and a relentless desire to build something meaningful.
+    fullContent: `
 
-I didn’t have fancy investors or a massive team. Just passion, late nights, and the belief that technology could solve everyday problems.
+Every startup begins with a story.  
+For me, it started with a simple problem and a desire to build something meaningful.
 
-From sketching ideas on napkins to pitching to friends, every step was a lesson in patience and perseverance.
+I didn’t have investors or a large team.  
+Just passion, late nights, and the belief that technology can solve everyday problems.
 
-Cookie wasn’t just a project—it was my journey of growth, failure, learning, and ultimately, progress.
+From sketching ideas on paper to pitching to friends,  
+every step taught me patience and perseverance.
 
-If you’re starting your own path, remember: the journey is as important as the destination. Keep pushing, keep learning.`,
+Cookie wasn’t just a project —  
+it became my journey of **growth, failure, learning, and progress**.
+
+If you’re starting your own journey, remember:
+
+> The journey is as important as the destination.  
+> Keep pushing. Keep learning.
+    `,
   },
+
   {
     title: "Fail Fast, Learn Faster",
     date: "May 15, 2025",
-    author: "Cookie Founder",
-    description:
-      "Breaking down the idea of failing fast, and how I embraced failure as feedback to grow Cookie.",
     slug: "fail-fast-learn-faster",
-    fullContent: `Fail fast. It sounds cliché, but it’s a mindset that saved Cookie.
+    description:
+      "Breaking down the philosophy of failing fast, and how it helped me grow faster.",
+    fullContent: `
 
-Early on, we made decisions that didn’t work. Features that customers ignored. Strategies that fell flat.
+"Fail fast" sounds cliché —  
+but it genuinely changed the way I build.
 
-Instead of fearing failure, we welcomed it as feedback.
+In the early days of Cookie, we made decisions that didn’t work.  
+Features failed. Ideas fell flat.
 
-Each failure sharpened our focus and helped us pivot quickly.
+Instead of fearing failure, I treated it as **feedback**.
 
-Remember, failure isn’t defeat—it’s an opportunity to learn, adapt, and come back stronger.
+Every failure brought clarity and forced better decisions.
 
-Fail fast, yes. But more importantly, learn faster.`,
+Failure isn’t defeat —  
+**it’s data**.
+
+Fail fast, yes.  
+But more importantly — **learn faster**.
+    `,
   },
+
   {
     title: "Balancing Vision and Execution",
     date: "May 10, 2025",
-    author: "Cookie Founder",
-    description:
-      "Vision gives you direction. Execution gets you there. Here's how I handle both without losing focus.",
     slug: "balancing-vision-and-execution",
-    fullContent: `Vision and execution — they’re the two sides of the same coin.
+    description:
+      "Vision gives direction. Execution brings results. Here's how to balance both.",
+    fullContent: `
 
-Vision without execution is just a dream. Execution without vision is just busywork.
+Vision and execution are two sides of the same coin.
 
-At Cookie, we keep our vision clear: to build tech that truly helps businesses grow.
+- Vision without execution is just a dream.  
+- Execution without vision is just busywork.
 
-But that vision only matters if we execute daily — through small, deliberate actions.
+At Cookie, we keep the vision clear:  
+**Build tech that genuinely helps businesses grow.**
 
-I’ve learned to balance dreaming big with doing the work.
+But that vision only matters if we execute daily —  
+small, deliberate steps.
 
-If you want to lead, don’t just envision the future — build it step by step.`,
+If you want to lead, don’t just imagine the future.  
+**Build it.**
+    `,
   },
+
   {
     title: "Why Smart Work Beats Hard Work",
     date: "May 5, 2025",
-    author: "Cookie Founder",
-    description:
-      "It’s not about working 20 hours. It’s about making 4 hours count like 20. My thoughts on smart work culture.",
     slug: "why-smart-work-beats-hard-work",
-    fullContent: `Working 20 hours a day sounds great — until it burns you out.
+    description:
+      "It's not about working 20 hours. It's about making 4 hours work like 20.",
+    fullContent: `
 
-I’ve learned that smart work isn’t about laziness, it’s about leverage.
+Working 20 hours a day sounds impressive —  
+until it burns you out.
 
-Instead of doing everything myself, I focus on systems. Delegation. Automation.
+Smart work isn't laziness —  
+it's **leverage**.
 
-That’s how 4 hours of focused work can beat 20 hours of scattered effort.
+Instead of doing everything myself, I focus on:
 
-At Cookie, we choose to optimize, not just hustle.
+- systems  
+- delegation  
+- automation  
 
-So here’s a rule I live by now: Think twice before working twice. Hustle hard, but think smarter.`,
+That’s how 4 focused hours can outperform 20 scattered ones.
+
+A rule I follow now:
+
+> Think twice before working twice.  
+> Hustle hard — but think smarter.
+    `,
   },
+
   {
     title: "The Power of Saying No",
     date: "May 1, 2025",
-    author: "Cookie Founder",
-    description:
-      "Every 'yes' comes at a cost. Here's how saying 'no' more often gave me clarity and control.",
     slug: "the-power-of-saying-no",
-    fullContent: `“No” is underrated.
+    description:
+      "Every 'yes' costs energy. Saying 'no' gave me clarity, focus, and control.",
+    fullContent: `
+# The Power of Saying No
 
-Every time I say no to distractions, side projects, or low-value tasks — I’m saying yes to Cookie’s growth.
+"No" is underrated.
 
-It’s hard. Especially in early stages when every offer feels like an opportunity.
+Every time I say no to:
 
-But not every opportunity aligns with our mission.
+- distractions  
+- side projects  
+- low-value tasks  
 
-Saying no helped me protect my time, my team’s energy, and our identity.
+I’m saying **yes** to focus and growth.
 
-Learning to say no isn’t arrogance — it’s clarity.
+Not every opportunity aligns with the mission.
 
-And that clarity builds momentum.`,
+Saying no helped protect my time, energy, and identity.
+
+Learning to say no isn’t arrogance —  
+**it’s clarity.**
+
+And clarity builds momentum.
+    `,
   },
-  {
-  title: "The Unexpected Idea Behind My New CLI Tool",
-  date: "May 25, 2025",
-  author: "Cookie Founder",
-  description:
-    "How I accidentally stumbled onto a unique backend-to-frontend sync concept while building a simple developer tool.",
-  slug: "the-unexpected-idea-behind-my-cli",
-  fullContent: `Some ideas are born from planning. Others appear out of nowhere. This one was the second kind.
-
-While working on a small personal project, I accidentally discovered a new way to sync backend routes with the frontend — without using OpenAPI, Swagger, GraphQL, or any complex code generators.
-
-It started simple: I exported all my backend routes into a tiny manifest file. Then I piped that manifest directly into my frontend. Suddenly, my frontend knew:
-- every available backend endpoint,
-- how to auto-generate request functions,
-- how to stay type-consistent with backend changes,
-- and how to update instantly without touching a line of client-side API code.
-
-One sync step. That’s it.
-
-The more I tested it, the more strange it felt — why hasn’t anyone tried something this simple?
-
-I searched everywhere. The only solutions I found were huge frameworks that felt too heavy for small teams or solo developers. But this? This was minimal, clean, and shockingly effective.
-
-This small discovery eventually became the foundation of my CLI tool — a utility designed to help developers move faster with less friction. A tool that connects backend and frontend in a lightweight, almost magical way.
-
-I’m still refining it, but the potential feels exciting. Sometimes the best ideas come from the moments where you stop trying to invent something big… and just solve your own problem.
-
-More updates coming soon.`,
-},
-
 ];
+
+
 
 const services = [
   {

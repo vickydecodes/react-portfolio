@@ -4,7 +4,8 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { meta, blogs } from "../../utils/contentOptions";
-import './Blogs.css'
+import Markdown from "react-markdown";
+import "./Blogs.css";
 
 export default function Blogs() {
   return (
@@ -26,16 +27,22 @@ export default function Blogs() {
         <Row className="sec_sp">
           {blogs.map((blog, i) => (
             <Col lg={12} key={i} className="mb-4">
-              <Link to={`/blog/${blog.slug}`} className="z-1 blog-card-link text-decoration-none">
+              <Link
+                to={`/blog/${blog.slug}`}
+                className="z-1 blog-card-link text-decoration-none"
+              >
                 <Card className="blog-card p-3 z-5">
                   <Card.Body>
                     <Card.Title className="blog-title">{blog.title}</Card.Title>
+
                     <Card.Subtitle className="mb-2 text-muted blog-meta">
-                      {blog.date} · {blog.author}
+                      {blog.date}
                     </Card.Subtitle>
+
                     <Card.Text className="blog-desc">
-                      {blog.description}
+                      <Markdown>{blog.description}</Markdown>
                     </Card.Text>
+
                     <span className="read-more-btn">Read More →</span>
                   </Card.Body>
                 </Card>
