@@ -5,6 +5,8 @@ const meta = {
     "I’m Vicky, Founder & CEO of Cookie Inc. , a tech-driven creative studio.",
 };
 
+const github_username = "vickydecodes";
+
 const introdata = {
   title: "I’m Vicky",
   animated: {
@@ -14,13 +16,13 @@ const introdata = {
   },
   description:
     "Founder & CEO of Cookie Inc. — a tech-driven creative studio where strategy meets execution. With a passion for smart solutions and modern design, I lead Cookie Inc. to build meaningful digital products that scale, connect, and inspire. From bold ideas to polished launches, I’m all about creating impact through clean code and sharp thinking.",
-  your_img_url: "/resume/hey_2.png",
+  your_img_url: "/resume/my_img6.png",
 };
 
 const dataabout = {
   title: "A bit about myself",
   aboutme:
-    "Hi, I'm Vignesh — Founder & CEO of Cookie Inc. . I lead with vision, passion, and a mission to turn bold ideas into real impact. From building strong teams to crafting smart strategies, I’m all about driving Cookie Inc. forward with creativity and purpose. Let’s make something unforgettable.",
+    "Hi, I'm Vignesh — Founder & CEO of Cookie Inc. I lead with vision, passion, and a mission to turn bold ideas into real impact. From building strong teams to crafting smart strategies, I’m all about driving Cookie Inc. forward with creativity and purpose. Let’s make something unforgettable.",
 };
 const worktimeline = [
   {
@@ -42,22 +44,43 @@ const worktimeline = [
 ];
 
 const skills = [
-  { name: "Python", value: 90 },
-  { name: "Node JS", value: 85 },
-  { name: "Javascript", value: 80 },
-  { name: "React", value: 85 },
-  { name: "Express JS", value: 80 },
-  { name: "Mongo DB", value: 75 },
+  { name: "JavaScript", value: 88 },
+  { name: "TypeScript", value: 80 },
+  { name: "React / Next.js", value: 85 },
+  { name: "Node.js", value: 88 },
+  { name: "Express.js", value: 85 },
+  { name: "MongoDB", value: 80 },
+  { name: "REST API Architecture", value: 88 },
+  { name: "Authentication & Authorization (JWT, Role-based)", value: 82 },
+  { name: "Tailwind CSS", value: 90 },
+  { name: "CSS / Responsive Design", value: 85 },
   { name: "Git & GitHub", value: 85 },
-  { name: "TypeScript", value: 75 },
   { name: "Firebase", value: 75 },
-  { name: "Docker", value: 60 },
-  { name: "REST APIs", value: 85 },
-  { name: "CSS & Sass", value: 80 },
-  { name: "Bootstrap", value: 90 },
-  { name: "Tailwind CSS", value: 80 },
-  { name: "Framer Motion", value: 70 },
+  { name: "Docker", value: 65 },
+  { name: "Deployment (Vercel / Render / VPS)", value: 75 },
+  { name: "System Design (Small–Mid Scale Apps)", value: 70 }
 ];
+
+export const beyondProfession = [
+  {
+    title: "Anime",
+    description:
+      "I enjoy watching anime, especially One Piece and Attack on Titan. Stories of freedom, ambition, and determination deeply resonate with me. As Luffy says, 「海賊王に俺はなる！」 and from Attack on Titan, 「駆逐してやる！」 — powerful reminders to chase dreams and face challenges head-on."
+  },
+  {
+    title: "Movies",
+    description:
+      "I enjoy watching movies across different genres. Cinema helps me relax, think differently, and appreciate creativity."
+  },
+  {
+    title: "Reading",
+    description:
+      "I recently started building a reading habit to improve my mindset, focus, and knowledge."
+  }
+];
+
+
+
 
 const blogs = [
   {
@@ -299,52 +322,79 @@ const education = [
 
 const dataportfolio = [
   {
-    img: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1725178942/portfolio/project/tp5dt5umbitbxhm6fbkv.png",
-    description: "The Tribute to Virat Kohli",
-    link: "https://vickydecodes.github.io/viratkohli18/viraat2.html",
+    img: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1771329119/Screenshot_2026-02-17_172135_aje76e.png",
+    description: "SAP CRM – Multi-Module Tuition ERP (4-Role Access)",
+    tech: ["React", "Node.js", "MongoDB", "JWT"],
+    link: "https://app.sampathacademy.in"
   },
   {
-    img: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1725179388/portfolio/project/uul4yhztqhhfkmqdh8k6.png",
-    description: "Yelpcamp",
-    link: "https://yelpcamp-z482.onrender.com",
+    img: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1771328904/Fashbridge-logo_c4na8q.png",
+    description: "FashBridge – AI-Powered Styling Assistant",
+    tech: ["React Native", "AI API", "Node.js"],
+    link: "https://github.com/codesbycookie/fashbridge"
   },
   {
-    img: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1725179795/portfolio/project/vf4zc2avnffpam9n1dom.png",
-    description: "React Todo App",
-    link: "https://react-todos-0d4p.onrender.com/",
+    img: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1771328904/iqbridge_cs_gocl5m.jpg",
+    description: "IQBridge – EdTech Corporate Website",
+    tech: ["React", "Bootstrap"],
+    link: "https://iqbridge.com"
   },
   {
-    img: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1725180026/portfolio/project/kbkkkn2gcgioedonqbfr.png",
-    description: "TV show finder app",
-    link: "https://vickydecodes.github.io/tvshow/tv.html",
-  },
-
-  {
-    img: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1725180141/portfolio/project/urzh9t1psdht5pvhjbey.png",
-    description: "Snake game",
-    link: "https://vickydecodes.github.io/snakegame/snake.html",
+    img: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1771331184/Decode_CLI_q5e7nj.png",
+    description: "Decode CLI – Custom Boilerplate Automation Tool",
+    tech: ["Node.js", "CLI", "File System"],
+    link: `https://github.com/${github_username}/decode`
   },
   {
-    img: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1725180554/portfolio/project/f2i4gt0m6nvcspcocq3c.png",
-    description: "Color cubes",
-    link: "https://reactapp-bdo0.onrender.com/",
+    img: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1771328905/sap_checklist_mj3pd5.jpg",
+    description: "SAP Checklist – Workflow & Task Automation System",
+    tech: ["React", "Node.js", "MongoDB"],
+    link: "https://www.tasklist.co.in"
+  },
+  {
+    img: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1771331181/Decode_CLI_2_uggnvv.png",
+    description: "AI Web Scraper – Intelligent Content Extraction & Q&A",
+    tech: ["Python", "BeautifulSoup", "OpenAI API"],
+    link: `https://github.com/${github_username}/ai-webscraper`
   },
   {
     img: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1725289558/portfolio/project/k6nggfjaza3sbum1cntd.png",
-    description: "Arulmigu Sree Balamuneeswaran Temple Website",
-    link: "https://www.arulmigusreebalamuneeswarantemple.org",
+    description: "Temple Website – Official Organization Site",
+    tech: ["React", "Responsive Design"],
+    link: "https://www.arulmigusreebalamuneeswarantemple.org"
   },
   {
-    img: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1735799142/portfolio/project/byqkv46hkwfdzexqocju.png",
-    description: "Send Anywhere Clone",
-    link: "https://sendanywhere-frontend.onrender.com/",
+    img: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1725179388/portfolio/project/uul4yhztqhhfkmqdh8k6.png",
+    description: "YelpCamp – Full-Stack Booking Platform",
+    tech: ["Node.js", "Express", "MongoDB"],
+    link: `https://github.com/${github_username}/yelpcamp`
   },
   {
-    img: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1735799316/portfolio/project/wljttywimmptifypsuvp.png",
-    description: "ChatGPT Clone",
-    link: "https://openai-i68y.onrender.com",
+    img: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1771331181/Decode_CLI_3_fnntr9.png",
+    description: "Sentiment Analysis – NLP Text Classification Engine",
+    tech: ["Python", "NLP", "Scikit-learn"],
+    link: `https://github.com/${github_username}/sentiment_analysis_app`
   },
+  {
+    img: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1771331182/Decode_CLI_1_rvxiiq.png",
+    description: "PDF-to-Audio Converter – Automated TTS Processor",
+    tech: ["Python", "PDF Parsing", "TTS"],
+    link: `https://github.com/${github_username}/audio-converter`
+  },
+  {
+    img: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1771331180/Decode_CLI_4_hpxkbp.png",
+    description: "Media Downloader – yt-dlp Video Processing Tool",
+    tech: ["Python", "yt-dlp"],
+    link: `https://github.com/${github_username}/yt-videos_downloader`
+  },
+  {
+    img: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1725178942/portfolio/project/tp5dt5umbitbxhm6fbkv.png",
+    description: "The Tribute to Virat Kohli – My First Web Project",
+    tech: ["HTML", "CSS"],
+    link: "https://vickydecodes.github.io/viratkohli18/viraat2.html"
+  }
 ];
+
 
 const contactConfig = {
   YOUR_EMAIL: "workofvicky@gmail.com",

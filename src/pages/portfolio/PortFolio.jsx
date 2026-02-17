@@ -1,4 +1,3 @@
-import React from "react";
 import "./PortFolio.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
@@ -28,6 +27,11 @@ export const Portfolio = () => {
                   <p>{data.description}</p>
                   <a href={data.link}>view project</a>
                 </div>
+                 <div className="tech_stack">
+    {data.tech?.map((tech, index) => (
+      <span key={index}>{tech}</span>
+    ))}
+  </div>
               </div>
             );
           })}

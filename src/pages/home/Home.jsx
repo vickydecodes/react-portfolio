@@ -1,4 +1,3 @@
-import React from "react";
 import "./Home.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
