@@ -343,7 +343,7 @@ const dataportfolio = [
     img: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1771331184/Decode_CLI_q5e7nj.png",
     description: "Decode CLI – Custom Boilerplate Automation Tool",
     tech: ["Node.js", "CLI", "File System"],
-    link: `https://github.com/${github_username}/decode`
+    link: `https://github.com/codesbycookie/weatherdress_frontend`
   },
   {
     img: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1771328905/sap_checklist_mj3pd5.jpg",
