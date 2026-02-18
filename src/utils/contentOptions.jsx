@@ -331,7 +331,7 @@ const dataportfolio = [
     img: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1771328904/Fashbridge-logo_c4na8q.png",
     description: "FashBridge – AI-Powered Styling Assistant",
     tech: ["React Native", "AI API", "Node.js"],
-    link: "https://github.com/codesbycookie/fashbridge"
+    link: "https://github.com/codesbycookie/weatherdress_frontend"
   },
   {
     img: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1771328904/iqbridge_cs_gocl5m.jpg",
@@ -343,7 +343,7 @@ const dataportfolio = [
     img: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1771331184/Decode_CLI_q5e7nj.png",
     description: "Decode CLI – Custom Boilerplate Automation Tool",
     tech: ["Node.js", "CLI", "File System"],
-    link: `https://github.com/codesbycookie/weatherdress_frontend`
+    link: `https://github.com/${github_username}/decode`
   },
   {
     img: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1771328905/sap_checklist_mj3pd5.jpg",
