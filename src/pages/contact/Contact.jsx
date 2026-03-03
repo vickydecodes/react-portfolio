@@ -1,6 +1,6 @@
 /* eslint-disable no-prototype-builtins */
-import  { useState } from "react";
-import * as emailjs from "emailjs-com";
+import { useState } from "react";
+import emailjs from "@emailjs/browser";
 import "./Contact.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col, Alert } from "react-bootstrap";
@@ -17,50 +17,50 @@ export const ContactUs = () => {
     variant: "",
   });
 
- const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    setFormdata((prev) => ({ ...prev, loading: true }));
 
-    const templateParams = {
-      from_name: formData.name,
-      from_email: 'hello@vickify.in',
-      name: formData.name,
-      email: formData.email,
-      message: formData.message,
-    };
+    try {
+      setFormdata((prev) => ({ ...prev, loading: true, show: false }));
 
-    emailjs
-      .send(
+      const templateParams = {
+        from_name: formData.name,
+        from_email: formData.email, // IMPORTANT FIX
+        name: formData.name,
+        email: formData.email,
+        message: formData.message,
+      };
+
+      const response = await emailjs.send(
         contactConfig.YOUR_SERVICE_ID,
         contactConfig.YOUR_TEMPLATE_ID,
         templateParams,
         contactConfig.YOUR_USER_ID
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          setFormdata({
-            email: "",
-            name: "",
-            message: "",
-            loading: false,
-            alertmessage: "SUCCESS! Thank you for your message",
-            variant: "success",
-            show: true,
-          });
-        },
-        (error) => {
-          console.log(error.text);
-          setFormdata((prev) => ({
-            ...prev,
-            loading: false,
-            alertmessage: `Failed to send! ${error.text}`,
-            variant: "danger",
-            show: true,
-          }));
-          document.getElementsByClassName("co_alert")[0].scrollIntoView();
-        }
       );
+
+      console.log("SUCCESS:", response);
+
+      setFormdata({
+        email: "",
+        name: "",
+        message: "",
+        loading: false,
+        alertmessage: "Got it. I’ll respond shortly.",
+        variant: "success",
+        show: true,
+      });
+
+    } catch (error) {
+      console.error("FAILED:", error);
+
+      setFormdata((prev) => ({
+        ...prev,
+        loading: false,
+        alertmessage: "Couldn’t send it just now. Try again in a moment.",
+        variant: "danger",
+        show: true,
+      }));
+    }
   };
 
   const handleChange = (e) => {
@@ -87,11 +87,10 @@ export const ContactUs = () => {
         <Row className="sec_sp">
           <Col lg="12">
             <Alert
-              //show={formData.show}
+              show={formData.show}
               variant={formData.variant}
-              className={`rounded-0 co_alert ${
-                formData.show ? "d-block" : "d-none"
-              }`}
+              className={`rounded-0 co_alert ${formData.show ? "d-block" : "d-none"
+                }`}
               onClose={() => setFormdata({ show: false })}
               dismissible
             >
