@@ -397,7 +397,7 @@ const dataportfolio = [
 
 
 const contactConfig = {
-  YOUR_EMAIL: "workofvicky@gmail.com",
+  YOUR_EMAIL: "hello@vickify.in",
   YOUR_FONE: "+91 63851 38282",
   description:
     "I'm Vignesh, a Full Stack Developer and the mind behind Cookie, with a passion for building user-centric digital experiences. I specialize in crafting scalable, efficient, and visually engaging web solutions using modern tech stacks. Fueled by innovation and a drive for excellence, I turn bold ideas into impactful applications that deliver real value.",
