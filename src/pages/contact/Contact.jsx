@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+/* eslint-disable no-prototype-builtins */
+import  { useState } from "react";
 import * as emailjs from "emailjs-com";
 import "./Contact.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
@@ -22,7 +23,7 @@ export const ContactUs = () => {
 
     const templateParams = {
       from_name: formData.name,
-      from_email: 'workofvicky@gmail.com',
+      from_email: 'hello@vickify.in',
       name: formData.name,
       email: formData.email,
       message: formData.message,

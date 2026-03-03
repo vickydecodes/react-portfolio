@@ -35,7 +35,7 @@ export default function Blogs() {
                   <Card.Body>
                     <Card.Title className="blog-title">{blog.title}</Card.Title>
 
-                    <Card.Subtitle className="mb-2 text-muted blog-meta">
+                    <Card.Subtitle className="mb-2 text-gray-500 blog-meta">
                       {blog.date}
                     </Card.Subtitle>
 
