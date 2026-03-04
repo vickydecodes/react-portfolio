@@ -2,35 +2,35 @@ const logotext = "Vicky";
 const meta = {
   title: "Vignesh Karthikeyan",
   description:
-    "I’m Vicky, Founder & CEO of Cookie Inc. , a tech-driven creative studio.",
+    "Full Stack Developer & Founder of Cookie Inc. I write code, ship products, and occasionally pretend I know what I'm doing.",
 };
 
 const github_username = "vickydecodes";
 
 const introdata = {
-  title: "I’m Vicky",
+  title: "I'm Vicky",
   animated: {
     first: "Crafting innovative code",
     second: "Building dynamic websites",
     third: "Developing robust web apps",
   },
   description:
-    "Founder & CEO of Cookie Inc. — a tech-driven creative studio where strategy meets execution. With a passion for smart solutions and modern design, I lead Cookie Inc. to build meaningful digital products that scale, connect, and inspire. From bold ideas to polished launches, I’m all about creating impact through clean code and sharp thinking.",
+    "Full Stack Developer. Founder of Cookie Inc. I build products end-to-end  from the database all the way to the pixel. Clean code, sharp UI, zero nonsense. Also probably thinking about what is One Piece right now.",
   your_img_url: "/resume/my_img6.png",
 };
 
 const dataabout = {
   title: "A bit about myself",
   aboutme:
-    "Hi, I'm Vignesh — Founder & CEO of Cookie Inc. I lead with vision, passion, and a mission to turn bold ideas into real impact. From building strong teams to crafting smart strategies, I’m all about driving Cookie Inc. forward with creativity and purpose. Let’s make something unforgettable.",
+    "I'm Vignesh — Full Stack Dev, Founder of Cookie Inc., and someone who takes code very seriously but himself not so much. I build across the full stack: architecture, APIs, UI, deployment — the whole thing. Started Cookie because I got tired of seeing mediocre software win. No trends, no templates. Just well-built products that do exactly what they promise.",
 };
+
 const worktimeline = [
   {
     jobtitle: "Founder & CEO",
     where: "Cookie Inc.",
     date: "2025 - present",
   },
-
   {
     jobtitle: "Web Developer",
     where: "Innotech Titans",
@@ -58,29 +58,26 @@ const skills = [
   { name: "Firebase", value: 75 },
   { name: "Docker", value: 65 },
   { name: "Deployment (Vercel / Render / VPS)", value: 75 },
-  { name: "System Design (Small–Mid Scale Apps)", value: 70 }
+  { name: "System Design (Small–Mid Scale Apps)", value: 70 },
 ];
 
 export const beyondProfession = [
   {
     title: "Anime",
     description:
-      "I enjoy watching anime, especially One Piece and Attack on Titan. Stories of freedom, ambition, and determination deeply resonate with me. As Luffy says, 「海賊王に俺はなる！」 and from Attack on Titan, 「駆逐してやる！」 — powerful reminders to chase dreams and face challenges head-on."
+      "I enjoy watching anime, especially One Piece and Attack on Titan. Stories of freedom, ambition, and determination deeply resonate with me. As Luffy says, 「海賊王に俺はなる！」 and from Attack on Titan, 「駆逐してやる！」 — powerful reminders to chase dreams and face challenges head-on.",
   },
   {
     title: "Movies",
     description:
-      "I enjoy watching movies across different genres. Cinema helps me relax, think differently, and appreciate creativity."
+      "I watch across genres — not just for entertainment, but for perspective. Good cinema shifts how you think.",
   },
   {
     title: "Reading",
     description:
-      "I recently started building a reading habit to improve my mindset, focus, and knowledge."
-  }
+      "Recently building a consistent reading habit. Books slow me down in the best way — better focus, clearer thinking.",
+  },
 ];
-
-
-
 
 const blogs = [
   {
@@ -88,40 +85,39 @@ const blogs = [
     date: "November 14, 2025",
     slug: "the-unexpected-idea-behind-my-cli",
     description:
-      "How I accidentally stumbled onto a unique backend-to-frontend sync concept while building a simple developer tool.",
+      "I accidentally built something that might actually be useful. No OpenAPI, no Swagger, no code gen. Just a manifest file, one sync step, and a lot of 'wait, why does this work?'",
     fullContent: `
-
-Some ideas come from planning. Others appear out of nowhere.  
+Some ideas come from planning. Others appear out of nowhere.
 This one was the second kind.
 
-While working on a small personal project, I discovered a new way to sync backend routes with the frontend — **without OpenAPI, Swagger, GraphQL, or any code generators**.
+While working on a small personal project, I found a new way to sync backend routes with the frontend — **without OpenAPI, Swagger, GraphQL, or any code generators**.
 
-It started simple:  
-I exported all my backend routes into a tiny manifest file.  
+It started simple:
+I exported all my backend routes into a tiny manifest file.
 Then I piped that manifest directly into my frontend.
 
 Suddenly, the frontend automatically knew:
 
-- every available backend endpoint  
-- how to auto-generate request functions  
-- how to stay type-consistent with backend changes  
-- how to update instantly without touching client-side code  
+- every available backend endpoint
+- how to auto-generate request functions
+- how to stay type-consistent with backend changes
+- how to update instantly without touching client-side code
 
-One **sync step**. That’s it.
+One **sync step**. That's it.
 
 The more I tested it, the stranger it felt — *why hasn't anyone tried something this simple?*
 
 Everything I found online was extremely heavy:
 
-- OpenAPI  
-- Swagger  
-- tRPC  
-- GraphQL  
-- RPC frameworks  
+- OpenAPI
+- Swagger
+- tRPC
+- GraphQL
+- RPC frameworks
 
 But this solution was **minimal, clean, and shockingly effective**.
 
-This discovery eventually became the foundation of my CLI tool —  
+This discovery became the foundation of my CLI tool —
 a lightweight utility that bridges backend → frontend seamlessly.
 
 Sometimes the best ideas appear when you're simply solving your own problem.
@@ -129,171 +125,128 @@ Sometimes the best ideas appear when you're simply solving your own problem.
 More updates soon.
     `,
   },
-
   {
     title: "How I Started My Startup Journey",
     date: "May 20, 2025",
     slug: "how-i-started-my-startup-journey",
     description:
-      "A story of how an idea turned into Cookie and the lessons I learned along the way.",
+      "No investors. No co-founder. Just a problem, a laptop, and the audacity to think I could build a company. Here's what actually happened.",
     fullContent: `
+Every startup begins somewhere.
 
-Every startup begins with a story.  
-For me, it started with a simple problem and a desire to build something meaningful.
+Mine started with a problem I kept running into and a stubbornness to fix it properly.
 
-I didn’t have investors or a large team.  
-Just passion, late nights, and the belief that technology can solve everyday problems.
+No investors. No big team. Just late nights, a lot of iteration, and a belief that good software solves real problems quietly — without needing to shout about it.
 
-From sketching ideas on paper to pitching to friends,  
-every step taught me patience and perseverance.
+Pitching to friends. Scrapping features. Rebuilding from scratch.
+Cookie wasn't just a project — it was where I figured out how to actually build something.
 
-Cookie wasn’t just a project —  
-it became my journey of **growth, failure, learning, and progress**.
-
-If you’re starting your own journey, remember:
-
-> The journey is as important as the destination.  
-> Keep pushing. Keep learning.
+If you're starting out: the process teaches you more than any outcome will.
+Keep shipping.
     `,
   },
-
   {
     title: "Fail Fast, Learn Faster",
     date: "May 15, 2025",
     slug: "fail-fast-learn-faster",
     description:
-      "Breaking down the philosophy of failing fast, and how it helped me grow faster.",
+      "Breaking things is fine. Not learning from them isn't. Here's how I stopped treating failure like a verdict and started treating it like a bug report.",
     fullContent: `
+"Fail fast" is overused. But it's overused because it works.
 
-"Fail fast" sounds cliché —  
-but it genuinely changed the way I build.
+Early on at Cookie, things broke. Features missed the mark. Decisions didn't pan out.
 
-In the early days of Cookie, we made decisions that didn’t work.  
-Features failed. Ideas fell flat.
+The shift was treating failure as **feedback** — not as a verdict.
 
-Instead of fearing failure, I treated it as **feedback**.
+Every bad call revealed something. A wrong assumption. A missed user need. A gap in thinking.
 
-Every failure brought clarity and forced better decisions.
-
-Failure isn’t defeat —  
-**it’s data**.
-
-Fail fast, yes.  
-But more importantly — **learn faster**.
+Failure isn't defeat. It's information.
+Fail fast, yes — but the real edge is **learning faster than everyone else**.
     `,
   },
-
   {
     title: "Balancing Vision and Execution",
     date: "May 10, 2025",
     slug: "balancing-vision-and-execution",
     description:
-      "Vision gives direction. Execution brings results. Here's how to balance both.",
+      "Big vision, zero execution = a really nice Notion doc. Pure execution, no vision = a hamster wheel. Here's how I try not to be either.",
     fullContent: `
+Vision and execution pull in different directions if you let them.
 
-Vision and execution are two sides of the same coin.
+Vision without execution stays a concept.
+Execution without vision burns time on the wrong things.
 
-- Vision without execution is just a dream.  
-- Execution without vision is just busywork.
+At Cookie, the direction is clear: build technology that genuinely moves the needle for businesses.
 
-At Cookie, we keep the vision clear:  
-**Build tech that genuinely helps businesses grow.**
+But that only matters if we execute — small, deliberate, consistent steps every day.
 
-But that vision only matters if we execute daily —  
-small, deliberate steps.
-
-If you want to lead, don’t just imagine the future.  
-**Build it.**
+Don't just imagine the future. Show up and build it.
     `,
   },
-
   {
     title: "Why Smart Work Beats Hard Work",
     date: "May 5, 2025",
     slug: "why-smart-work-beats-hard-work",
     description:
-      "It's not about working 20 hours. It's about making 4 hours work like 20.",
+      "Grinding 20-hour days used to feel productive. Then I realized I was just busy. Here's the switch that actually changed output.",
     fullContent: `
+Grinding 20 hours a day isn't a flex. It's usually a sign something's broken.
 
-Working 20 hours a day sounds impressive —  
-until it burns you out.
+Smart work is about **leverage** — systems, delegation, automation.
+It's making 4 focused hours do the work of 20 scattered ones.
 
-Smart work isn't laziness —  
-it's **leverage**.
+I stopped treating busyness as productivity.
 
-Instead of doing everything myself, I focus on:
-
-- systems  
-- delegation  
-- automation  
-
-That’s how 4 focused hours can outperform 20 scattered ones.
-
-A rule I follow now:
-
-> Think twice before working twice.  
-> Hustle hard — but think smarter.
+The rule I follow now: think before you work twice.
+Effort matters. But directed effort is what compounds.
     `,
   },
-
   {
     title: "The Power of Saying No",
     date: "May 1, 2025",
     slug: "the-power-of-saying-no",
     description:
-      "Every 'yes' costs energy. Saying 'no' gave me clarity, focus, and control.",
+      "Turns out 'no' is a full sentence. Took me embarrassingly long to figure that out — but once I did, everything got cleaner.",
     fullContent: `
-# The Power of Saying No
+No is one of the most underrated words in building a company.
 
-"No" is underrated.
+Every yes to a distraction, a misaligned project, or a low-leverage task
+is a quiet no to the thing that actually matters.
 
-Every time I say no to:
+Saying no isn't arrogance. It's prioritisation.
+It protects time, energy, and direction.
 
-- distractions  
-- side projects  
-- low-value tasks  
-
-I’m saying **yes** to focus and growth.
-
-Not every opportunity aligns with the mission.
-
-Saying no helped protect my time, energy, and identity.
-
-Learning to say no isn’t arrogance —  
-**it’s clarity.**
-
-And clarity builds momentum.
+Clarity is a competitive advantage.
+And clarity starts with what you refuse.
     `,
   },
 ];
-
-
 
 const services = [
   {
     title: "Website Development",
     description:
-      "I specialize in creating user-focused applications, leveraging my skills in both front-end and back-end technologies. I use React and Bootstrap for the front end, and Firebase and MongoDB for the back end, to build efficient, scalable, and visually appealing solutions.",
+      "Fast, responsive, built-to-last websites. React on the front, Node + MongoDB on the back. No page builder. No drag-and-drop. Just real code that actually works when you need it to.",
   },
   {
     title: "Web Apps",
     description:
-      "I design and build user-friendly applications. My focus is on ensuring efficiency, scalability, and visual appeal. I strive to create solutions that meet both user needs and project goals.",
+      "Full-stack web apps built for real users doing real things. Performant, maintainable, and won't fall apart the moment two people use it at the same time.",
   },
   {
     title: "Mobile App Development",
     description:
-      "I craft cross-platform mobile applications with intuitive interfaces and smooth performance, using modern frameworks like Flutter and React Native to bring ideas to life on both Android and iOS.",
+      "Cross-platform apps for Android and iOS using React Native. Feels native, ships fast, scales without drama. Your users won't know the difference — and that's the point.",
   },
   {
     title: "UI/UX Design",
     description:
-      "I focus on creating clean, modern, and user-friendly interfaces that enhance user experience. From wireframes to polished visuals, I ensure every product feels intuitive and looks stunning.",
+      "Clean, intentional interfaces. I design from wireframe to final build — no clutter, no mystery meat navigation, no 'what does this button do'. Just clarity.",
   },
   {
     title: "Digital Marketing",
     description:
-      "I help brands grow through targeted digital strategies, including SEO, social media marketing, and content creation. My goal is to increase visibility and drive meaningful engagement online.",
+      "SEO, content, and social strategy that moves the needle — not just the vanity metrics. Show up where it matters, say something worth reading.",
   },
 ];
 
@@ -303,7 +256,7 @@ const education = [
     duration: "2022 - 2025",
     school: "Gurunanak College, Velachery",
     description:
-      "Learned various technologies Web Technologies, Programming Languages, Data Structures, Mobile App Development, OS, Databases",
+      "Covered web technologies, programming languages, data structures, mobile app development, operating systems, and databases.",
     cgpa: "CGPA: 7.85 out of 9.5",
   },
   {
@@ -325,82 +278,81 @@ const dataportfolio = [
     img: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1771329119/Screenshot_2026-02-17_172135_aje76e.png",
     description: "SAP CRM – Multi-Module Tuition ERP (4-Role Access)",
     tech: ["React", "Node.js", "MongoDB", "JWT"],
-    link: "https://app.sampathacademy.in"
+    link: "https://app.sampathacademy.in",
   },
   {
     img: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1771328904/Fashbridge-logo_c4na8q.png",
     description: "FashBridge – AI-Powered Styling Assistant",
     tech: ["React Native", "AI API", "Node.js"],
-    link: "https://github.com/codesbycookie/weatherdress_frontend"
+    link: "https://github.com/codesbycookie/weatherdress_frontend",
   },
   {
     img: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1771328904/iqbridge_cs_gocl5m.jpg",
     description: "IQBridge – EdTech Corporate Website",
     tech: ["React", "Bootstrap"],
-    link: "https://iqbridge.com"
+    link: "https://iqbridge.com",
   },
   {
     img: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1771331184/Decode_CLI_q5e7nj.png",
     description: "Decode CLI – Custom Boilerplate Automation Tool",
     tech: ["Node.js", "CLI", "File System"],
-    link: `https://github.com/${github_username}/decode`
+    link: `https://github.com/${github_username}/decode`,
   },
   {
     img: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1771328905/sap_checklist_mj3pd5.jpg",
     description: "SAP Checklist – Workflow & Task Automation System",
     tech: ["React", "Node.js", "MongoDB"],
-    link: "https://www.tasklist.co.in"
+    link: "https://www.tasklist.co.in",
   },
   {
     img: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1771331181/Decode_CLI_2_uggnvv.png",
     description: "AI Web Scraper – Intelligent Content Extraction & Q&A",
     tech: ["Python", "BeautifulSoup", "OpenAI API"],
-    link: `https://github.com/${github_username}/ai-webscraper`
+    link: `https://github.com/${github_username}/ai-webscraper`,
   },
   {
     img: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1725289558/portfolio/project/k6nggfjaza3sbum1cntd.png",
     description: "Temple Website – Official Organization Site",
     tech: ["React", "Responsive Design"],
-    link: "https://www.arulmigusreebalamuneeswarantemple.org"
+    link: "https://www.arulmigusreebalamuneeswarantemple.org",
   },
   {
     img: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1725179388/portfolio/project/uul4yhztqhhfkmqdh8k6.png",
     description: "YelpCamp – Full-Stack Booking Platform",
     tech: ["Node.js", "Express", "MongoDB"],
-    link: `https://github.com/${github_username}/yelpcamp`
+    link: `https://github.com/${github_username}/yelpcamp`,
   },
   {
     img: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1771331181/Decode_CLI_3_fnntr9.png",
     description: "Sentiment Analysis – NLP Text Classification Engine",
     tech: ["Python", "NLP", "Scikit-learn"],
-    link: `https://github.com/${github_username}/sentiment_analysis_app`
+    link: `https://github.com/${github_username}/sentiment_analysis_app`,
   },
   {
     img: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1771331182/Decode_CLI_1_rvxiiq.png",
     description: "PDF-to-Audio Converter – Automated TTS Processor",
     tech: ["Python", "PDF Parsing", "TTS"],
-    link: `https://github.com/${github_username}/audio-converter`
+    link: `https://github.com/${github_username}/audio-converter`,
   },
   {
     img: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1771331180/Decode_CLI_4_hpxkbp.png",
     description: "Media Downloader – yt-dlp Video Processing Tool",
     tech: ["Python", "yt-dlp"],
-    link: `https://github.com/${github_username}/yt-videos_downloader`
+    link: `https://github.com/${github_username}/yt-videos_downloader`,
   },
   {
     img: "https://res.cloudinary.com/dyrcq4l1g/image/upload/v1725178942/portfolio/project/tp5dt5umbitbxhm6fbkv.png",
     description: "The Tribute to Virat Kohli – My First Web Project",
     tech: ["HTML", "CSS"],
-    link: "https://vickydecodes.github.io/viratkohli18/viraat2.html"
-  }
+    link: "https://vickydecodes.github.io/viratkohli18/viraat2.html",
+  },
 ];
-
 
 const contactConfig = {
   YOUR_EMAIL: "hello@vickify.in",
   YOUR_FONE: "+91 63851 38282",
   description:
-    "I'm Vignesh, a Full Stack Developer and the mind behind Cookie, with a passion for building user-centric digital experiences. I specialize in crafting scalable, efficient, and visually engaging web solutions using modern tech stacks. Fueled by innovation and a drive for excellence, I turn bold ideas into impactful applications that deliver real value.",
+    "I'm Vignesh — Full Stack Developer and Founder of Cookie Inc. I build things end-to-end and I don't half-ship. If you've got a real problem that needs a real product, I'm in. Let's talk.",
   YOUR_SERVICE_ID: "service_w1ccqt4",
   YOUR_TEMPLATE_ID: "template_wtvoz0q",
   YOUR_USER_ID: "tZ6uCr0jgGzlfsL97",
@@ -412,6 +364,7 @@ const socialprofils = {
   twitter: "https://x.com/vickify_exe",
   instagram: "https://www.instagram.com/vickify.exe",
 };
+
 export {
   meta,
   dataabout,
